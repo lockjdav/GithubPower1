@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Script Dev One</title>
+    <script>
+      //variables
+      var a = 20;
+      var b;
+      b = 10;
+      var c = null;
+      console.log(a + b + c);
+      const name = "Jon";
+      console.log(name);
+
+      //arrays
+      let rgb = ["red", "green", "yellow"];
+      console.log(rgb);
+      console.log(rgb.splice(2, 1));
+      console.log(rgb.splice(2, 0, "blue"));
+
+      //function
+      function rollcall(name) {
+        console.log("Hello " + name);
+      }
+      rollcall("Jack");
+      rollcall("Jill");
+
+      //primitive
+      console.log(typeof a);
+      console.log(typeof name);
+
+      //object
+      var object1 = {
+        name: "Casey",
+        age: 37,
+      };
+      console.log(object1);
+
+      console.log(object1.name);
+    </script>
+  </head>
+  <body></body>
+</html>
